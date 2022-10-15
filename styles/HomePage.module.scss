@@ -1,0 +1,148 @@
+.bodyPage {
+    background: rgb(33, 37, 41);
+    color: rgb(250, 250, 250);
+    .Hompage_Menu {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1400px;
+        margin: 0px auto;
+        padding: 12px 0px 12px 0px;
+        .ListItem_Menu {
+            display: flex;
+            .ListItem_icon_Logo {
+                width: 200px;
+                height: 45px;
+            }
+            .ListItem_Items {
+                line-height: 45px;
+                height: 45px;
+                margin-left: 15px;
+                a {
+                    padding: 11px 15px;
+                    color: rgb(250, 250, 250);
+                    text-decoration: none;
+                }
+            }
+        }
+        .ListItems_Right{
+            display: flex;
+            .form_Search_Menu{
+                display: flex;
+                margin-right: 10px;
+                input{
+                    width: 250px;
+                    height: 40px;
+                    border-radius: 22px;
+                    background: none;
+                    transition: width .4s linear;
+                    outline: none;
+                    padding: 5px 10px;
+                    border-color: gold;
+                    color: white;
+                }
+                .backgroup__btn{
+                    width: 40px;
+                    height: 40px;
+                    background: red;
+                    font-size: 27px;
+                    color: white;
+                    text-align: center;
+                    border-radius: 30px;
+                    position: relative;
+                    left: -101%;
+                }
+
+ 
+                // input:{
+                //     border-color: none;
+                // }
+            }
+            .button_MenuOpen{
+                height: max-content;
+                button{
+                    background: gold;
+                    color: white;
+                    font-size: 21px;
+                    border-radius: 9px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.BodyPage{
+    background-color: #282c35;
+    width: 100%;
+    .MainPage{
+        max-width: 1400px;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        .MulitipleCategory{
+            .titleCategory{
+                color: white;
+                font-size: 26px;
+                margin: 15px 0px;
+                padding: 0px;
+            }
+            .Box_listCategory{
+                margin-right: 25px;
+                ul{
+                    list-style: none !important;
+                    padding: 0px !important;
+                    background-color: #212529;
+                    border-radius: 11px;
+                    li{
+                        padding: 10px 0px 10px 20px;
+                        a{
+                            font-size: 15px;
+                            color: white;
+                            font-weight: 500;
+                        }
+                    }
+                    li:hover{
+                        background: rgb(19 23 34);
+                        a{
+                            color: #f9ab00;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+        .ListMovie{
+            .BoxtitleMovie{
+                display: flex;
+                .titleListMovie{
+                    color: white;
+                    font-size: 26px;
+                    margin: 15px 0px;
+                    padding: 0px;
+                }
+                .LineMovie{
+                    border-top: 1px solid white;
+                    width: 100%;
+                    margin-top: 41px;
+                    margin-left: 8px;
+                }
+            }
+            .BoxInforMovie{
+                .BoxItemMovies{
+                    box-shadow: 0 3px 4px 0 rgb(0 0 0 / 20%), 0 4px 15px 0 rgb(0 0 0 / 19%);
+                    width: max-content;
+                    div{
+                        width: max-content;
+                        background-color: #282c35;
+                        // .ItemsMovies_PicThumb{
+                        //     width: 229px;
+                        //     height: 340px;
+                        // }
+                        .ItemsMovies_BtnPlay{
+                            color: #f9ab00;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
